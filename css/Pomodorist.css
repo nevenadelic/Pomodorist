@@ -1,0 +1,49 @@
+body {
+	margin: auto;
+    text-align: center;
+}
+header {
+	padding-bottom: 10px;
+	border-bottom: thin solid pink;
+    font-family: 'Georgia', cursive;
+}
+label {
+	padding: 0;
+	margin: 0;
+}
+
+#title {
+	font-size: 3em;
+	font-weight: bold;
+    color: mediumpurple;
+}
+
+.content {
+	padding: 20px 0px 40px 0px;
+}
+#timer {
+    font-size: 6em;
+    font-weight: bold;
+    color: mediumpurple;
+}
+button.btn_default {
+	padding: 8px 12px;
+    margin: 2px 0px;
+    font-weight: bolder;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid;
+}
+#btn_start {
+    background-color: lawngreen;
+    border: 1px solid lawngreen;
+}
+#btn_pause {
+    background-color: yellow;
+	border: 1px solid yellow;
+}
+#btn_reset {
+    background-color: hotpink;
+	border: 1px solid hotpink;
+}
+
